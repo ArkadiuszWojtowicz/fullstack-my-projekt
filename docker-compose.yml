@@ -1,7 +1,8 @@
 version: "3.7"
 services:
   spring-fullstack-projekt:
-    image: #Wstawic obraz z dockerhub'a
+    #image: #Wstawic obraz z dockerhub'a
+    build: .
     restart: on-failure
     ports:
       - 8080:8080
